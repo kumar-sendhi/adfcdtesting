@@ -1,6 +1,7 @@
 {
 	"name": "bugfix_copy",
 	"properties": {
+		"description": "bugfix_copy",
 		"activities": [
 			{
 				"name": "Copy data",
