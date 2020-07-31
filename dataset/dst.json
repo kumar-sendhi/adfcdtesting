@@ -1,0 +1,21 @@
+{
+	"name": "dst",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageSrc",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "dst"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
